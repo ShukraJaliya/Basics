@@ -52,7 +52,7 @@ int main(){
     string username =? ;
     string morenames = ? ;
     int age=? ;
-    bool check = true;
+    bool check = ? ;
 
     cout << " Please enter Your first name" << endl;
    // cin >> username;
@@ -68,25 +68,25 @@ int main(){
     //cin>> age;
     cout<< " You will be " << agein20(?) << " in twenty yrs" << endl;
 
-    if(age >50 ){
-        cout << "you are more than a century old" << endl;
+    if(age  ? 50 ){
+        cout << ? << endl;
     }
-    else if (age ==50){
-        cout<< "you aare have a century old" <<endl;
+    else if (age ? 50){
+        cout<< ?  << endl;
     }
     else {
-        cout<< "you are still young" << endl;
+        cout<< ? << endl;
     }
     return 0;
 
 
 }
 
-void print(string name){  //function header 
+void print(string ?){  //function header 
     cout<< " Good afternnon " << ? << " how are you doing today?"<< endl;
 }
 
-int agein20(int & age){
+int agein20(int & ?){
     int newage = ? +20;
 
     return newage;
