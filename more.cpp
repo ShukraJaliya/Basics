@@ -49,13 +49,13 @@ int agein20(int & age);
 int main(){
     //creating variable
     //string strvrb= "myname";
-    string username;
-    string morenames;
-    int age=0;
+    string username =? ;
+    string morenames = ? ;
+    int age=? ;
     bool check = true;
 
     cout << " Please enter Your first name" << endl;
-    cin >> username;
+   // cin >> username;
     print(username);
 
     cin.ignore();// clears the cin buffer for getlijne
@@ -65,8 +65,8 @@ int main(){
 
     cout << " Please enter your age" << endl;
     
-    cin>>age;
-    cout<< " You will be " << agein20(age) << " in twenty yrs" << endl;
+    //cin>> age;
+    cout<< " You will be " << agein20(?) << " in twenty yrs" << endl;
 
     if(age >50 ){
         cout << "you are more than a century old" << endl;
@@ -83,11 +83,11 @@ int main(){
 }
 
 void print(string name){  //function header 
-    cout<< " Good afternnon " << name << " how are you doing today?"<< endl;
+    cout<< " Good afternnon " << ? << " how are you doing today?"<< endl;
 }
 
 int agein20(int & age){
-    int newage = age +20;
+    int newage = ? +20;
 
     return newage;
 }
