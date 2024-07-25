@@ -1,60 +1,64 @@
 #include <iostream>
 #include <string>
+#include <cstring>
+#include <cstring>
 
 using namespace std;
+using std::string;
+using std::getline;
 
 
-// int times2(int ?){ 
 
-//     ? = ? *2;
-//     return ?;
-// }
-// void print(string name){
-//     cout << ? << endl;
-// }
+//a void function. no retunr value
+void print(string name); //function declaration
 
+//passed by reference 
+int agein20(int & age);
 
 
 int main(){
- //enter your name
-string name = ?;
+    //creating variable
+    //string strvrb= "myname";
+    string username =? ;
+    string morenames = ? ;
+    int age=? ;
+    bool check = ? ;
 
-cout << ? << endl;
+    cout << " Please enter Your first name" << endl;
+   // cin >> username;
+    print(username);
 
-//enter you age 
-int age = ?;
+    cin.ignore();// clears the cin buffer for getlijne
+    cout<< " Please enter full name, two or more names" << endl;
+    getline(cin, morenames); //ignores the whitespace and gets all the words 
+    print(morenames);
 
+    cout << " Please enter your age" << endl;
+    
+    //cin>> age;
+    cout<< " You will be " << agein20(?) << " in twenty yrs" << endl;
 
-//enter a letter 
-char letter = ?;
-
-
-//enter a character
-bool check = ?;
-
-
-//if statements
-if(age > ? ){
+    if(age  ? 50 ){
         cout << ? << endl;
     }
-    else if (age == ?){
-        cout<< ? <<endl;
+    else if (age ? 50){
+        cout<< ?  << endl;
     }
     else {
-        cout << ? << endl;
+        cout<< ? << endl;
     }
-
-//declare an integer variable
-//decralare a string variable
-//declare a char variable
-
-//print out your now declared varibales 
-
-
     return 0;
+
+
 }
 
+void print(string ?){  //function header 
+    cout<< " Good afternnon " << ? << " how are you doing today?"<< endl;
+}
 
+int agein20(int & ?){
+    int newage = ? +20;
 
-
+    return newage;
+}
 
