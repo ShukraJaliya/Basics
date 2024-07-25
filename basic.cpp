@@ -1,64 +1,87 @@
 #include <iostream>
 #include <string>
-#include <cstring>
-#include <cstring>
 
 using namespace std;
-using std::string;
-using std::getline;
 
 
 
-//a void function. no retunr value
-void print(string name); //function declaration
+//Using variagbles in functions 
+//this will mutiple your age by 2;
+int times2(int age){ 
 
-//passed by reference 
-int agein20(int & age);
+    int newAge; 
+
+//Reaplce ? with age 
+    newAge = ? * 2;
+
+    return newAge;
+}
+
+//Reaplce ? with   This is my name 
+void print(string name){
+    cout << "?" << endl;
+}
 
 
 int main(){
-    //creating variable
-    //string strvrb= "myname";
-    string username =? ;
-    string morenames = ? ;
-    int age=? ;
-    bool check = ? ;
 
-    cout << " Please enter Your first name" << endl;
-   // cin >> username;
-    print(username);
+//Replace ? with your name 
+string name = "?";
 
-    cin.ignore();// clears the cin buffer for getlijne
-    cout<< " Please enter full name, two or more names" << endl;
-    getline(cin, morenames); //ignores the whitespace and gets all the words 
-    print(morenames);
+cout << "Your name is " << name << endl;
 
-    cout << " Please enter your age" << endl;
-    
-    //cin>> age;
-    cout<< " You will be " << agein20(?) << " in twenty yrs" << endl;
+//enter you age 
+int age = ?;
 
-    if(age  ? 50 ){
-        cout << ? << endl;
-    }
-    else if (age ? 50){
-        cout<< ?  << endl;
-    }
-    else {
-        cout<< ? << endl;
-    }
+cout << "Your are " << age << " years old." << endl;
+
+// fucntion call
+//this will mutiple your age by 2;
+times2(age);
+
+
+
+//Replace ? with aletter 
+char letter = '?';
+
+
+//Reaplce ? with true or flase
+bool check = ?;
+
+
+//if statements
+if(age > 14  ){
+
+//Replace ? with: You are in 10th grade
+    cout << "?" << endl;
+}
+
+
+else if (age == 14){
+
+//Replace ? with: You are in 9th grade
+    cout<< "?" <<endl;
+}
+
+else {
+
+//Replace ? with: You are still in middle school
+    cout << "?"<< endl;
+}
+
+
+
+
+//declare an integer variable witha value of 20
+//decralare a string variable with user name Avela
+//declare a char variable with a letter A
+//write a cout statment saying: I am done
+
+
     return 0;
-
-
 }
 
-void print(string ?){  //function header 
-    cout<< " Good afternnon " << ? << " how are you doing today?"<< endl;
-}
 
-int agein20(int & ?){
-    int newage = ? +20;
 
-    return newage;
-}
+
 
